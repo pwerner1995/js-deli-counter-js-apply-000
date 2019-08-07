@@ -1,5 +1,10 @@
 var katzDeliLine =[];
 
+var count=0;
+
+function takeANumber2(){
+      count += 1;
+      }return "Welcome, you are customer number " + count;
 function takeANumber(line,name){
   line.push(name);
   return "Welcome, "+ name +". You are number "+ line.length + " in line.";

@@ -6,6 +6,11 @@ function takeANumber2(){
       count += 1;
       console.log("Welcome, you are customer number " + count);
 }
+takeANumber2();
+takeANumber2();
+takeANumber2();
+takeANumber2();
+
 function takeANumber(line,name){
   line.push(name);
   return "Welcome, "+ name +". You are number "+ line.length + " in line.";
